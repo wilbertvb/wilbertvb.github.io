@@ -3,9 +3,9 @@ layout: default
 title: About Me
 ---
 
-# 👋 Hello, I'm Wilbert Valverde B
+# 👋 Hello, I'm {{ site.title }}
 
-I'm a developer focusing on Senior Java Engineer. Welcome to my portfolio and blog!
+I'm a developer focusing on Java, python and other web technologies. Welcome to my portfolio and blog!
 
 ## My Skills
 
