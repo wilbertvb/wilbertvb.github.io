@@ -13,5 +13,5 @@ I'm a developer focusing on [Your Focus Area]. Welcome to my portfolio and blog!
 * **Frontend:** HTML, CSS, React, ...
 
 <div class="profile-pic-container">
-    <img src="/assets/images/default-profile.webp" alt="" class="default-picture">
+    <img src="/assets/img/default-profile.webp" alt="" class="default-picture">
 </div>
