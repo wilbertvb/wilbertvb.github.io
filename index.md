@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-# 👋 Hello, I'm {{ site.title }}
+# 👋 Hello, I'm Wilbert Valverde Barrantes
 
 I'm a developer focusing on Java, python and other web technologies. Welcome to my portfolio and blog!
 
