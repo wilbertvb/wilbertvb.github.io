@@ -1,11 +1,17 @@
 ---
-title:
-layout: home
+layout: default
+title: About Me
 ---
 
-Welcome to My Home Page
+# 👋 Hello, I'm [Your Name]
 
-{% assign date = '2025-04-13T10:20:00Z' %}
+I'm a developer focusing on [Your Focus Area]. Welcome to my portfolio and blog!
 
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+## My Skills
+
+* **Languages:** JavaScript, Python, ...
+* **Frontend:** HTML, CSS, React, ...
+
+<div class="profile-pic-container">
+    <img src="/assets/images/default-profile.webp" alt="" class="default-picture">
+</div>

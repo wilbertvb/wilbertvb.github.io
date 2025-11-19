@@ -1,0 +1,52 @@
+/* --- Base Styles for all devices --- */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* --- Default Picture Styling --- */
+.default-picture {
+    max-width: 250px; /* Limits size on large screens */
+    height: auto;
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #333;
+}
+
+/* --- Media Query for Mobile Devices (max-width: 600px) --- */
+@media (max-width: 600px) {
+    .container {
+        width: 100%; /* Use full width on small screens */
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 1.5em; /* Smaller headings on mobile */
+    }
+}
+
+/* --- Media Query for Tablets/Desktops (min-width: 601px) --- */
+@media (min-width: 601px) {
+    .container {
+        max-width: 960px; /* Maximize width on larger screens */
+    }
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Example hover color for LinkedIn */
+}
