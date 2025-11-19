@@ -41,14 +41,21 @@ body {
     }
 }
 
+/* Styling to ensure icons are visible and styled */
+.social-icons {
+    text-align: center;
+    padding: 20px 0;
+}
+
 .social-icons a {
-    color: #333;
-    margin: 0 10px;
+    color: #333; /* Make sure they have a visible color */
+    margin: 0 15px;
+    display: inline-block; /* Essential for proper spacing */
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #0077b5; /* Example hover color for LinkedIn */
+    color: #0077b5;
 }
 
 /* Styling for the header/nav */
