@@ -50,3 +50,50 @@ body {
 .social-icons a:hover {
     color: #0077b5; /* Example hover color for LinkedIn */
 }
+
+/* Styling for the header/nav */
+.site-header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the menu items horizontal */
+}
+
+.site-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Mobile-Specific Menu Styling */
+@media (max-width: 600px) {
+    .site-header .container {
+        flex-direction: column; /* Stacks title and nav vertically */
+        text-align: center;
+    }
+    .site-nav ul {
+        flex-direction: column; /* Stacks menu items vertically on mobile */
+        width: 100%;
+    }
+    .site-nav li {
+        border-top: 1px solid #555;
+    }
+}

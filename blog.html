@@ -1,0 +1,31 @@
+---
+layout: default
+title: My Developer Blog
+permalink: /blog/
+---
+
+<div class="blog-index">
+    <h1>All Posts</h1>
+
+    {% for post in site.posts %}
+        <article class="post-summary">
+            <h2>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <p class="post-meta">
+                Published on {{ post.date | date: "%b %-d, %Y" }}
+                {% if post.categories %}
+                    in {% for category in post.categories %}
+                        <span class="category-tag">{{ category }}</span>
+                    {% endfor %}
+                {% endif %}
+            </p>
+
+            {{ post.excerpt }}
+
+            <a href="{{ post.url | relative_url }}" class="read-more">Read More &raquo;</a>
+
+            <hr>
+        </article>
+    {% endfor %}
+</div>
